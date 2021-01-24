@@ -2,16 +2,14 @@
     if ( has_nav_menu( 'categories' ) ) { 
 
 ?>
-
-    
-    
     
     
 <!-- ======= Nav bar categories ======= -->
     <section id="navbar-categories">
         <div class="container-fluid">
+        <div class="d-flex justify-content-center">
 
-      <nav id="nav-button" class="main-nav d-none d-lg-block">
+      <nav id="nav-button" class="main-nav d-none d-lg-block ">
       <?php 
       
       wp_nav_menu( array(
@@ -37,6 +35,7 @@
      ); ?>
           
         </nav>
+    </div>
     </div>
 </section>
 <?php
