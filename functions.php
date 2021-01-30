@@ -159,7 +159,7 @@ if ( ! function_exists( 'izyshop_register_nav_menu' ) ) {
 		
         register_nav_menus( array(
             'categories' => __( 'Categories', 'text_domain' ),
-            'navbar'  => __( 'navbar', 'text_domain' ),
+            'footer'  => __( 'Footer', 'text_domain' ),
         ) );
     }
     add_action( 'after_setup_theme', 'izyshop_register_nav_menu', 0 );
